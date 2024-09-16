@@ -25,16 +25,10 @@ const Navber = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        className="menu menu-sm dropdown-content bg-[#252322] rounded-box z-[1] mt-3  p-2 shadow-2xl">
+                        {
+                            navLinks.map(link => <li className={`${pathName === link.path && 'border-b-2 border-[#EE6C0C]'} font-bold uppercase`} key={link.path}><Link href={link.path}>{link.title}</Link></li>)
+                        }
                     </ul>
                 </div>
                 <Link href={'/'} className="btn btn-ghost text-xl"><span className='text-[#EE6C0C]'>GYM</span>FIT</Link>
@@ -46,9 +40,9 @@ const Navber = () => {
                     }
                 </ul>
             </div>
-            <div className="navbar-end">
+            {/* <div className="navbar-end">
                 <a className="btn">Button</a>
-            </div>
+            </div> */}
         </div>
     );
 };
