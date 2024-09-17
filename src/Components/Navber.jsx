@@ -31,7 +31,7 @@ const Navber = () => {
                         }
                     </ul>
                 </div>
-                <Link href={'/'} className="btn btn-ghost text-xl"><span className='text-[#EE6C0C]'>GYM</span>FIT</Link>
+                <Link href={'/'} className="btn btn-ghost text-4xl"><span className='text-[#EE6C0C]'>GYM</span>FIT</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -41,9 +41,6 @@ const Navber = () => {
                 </ul>
                 <a className="btn rounded-3xl px-10 hover:bg-[#252322] bg-[#EE6C0C] border-none text-white">SignUP</a>
             </div>
-            {/* <div className="navbar-end">
-                <a className="btn">Button</a>
-            </div> */}
         </div>
     );
 };
