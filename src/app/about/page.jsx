@@ -1,11 +1,10 @@
 
-const page = () => {
+const About = () => {
     return (
         <div>
-              <div className="divider divider-horizontal">Default</div>
-
+            
         </div>
     );
 };
 
-export default page;
+export default About;

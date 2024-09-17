@@ -9,8 +9,8 @@ const Banner = () => {
                 <Image src='/devider.png' width={50} height={80} alt="devider" />
                 <div className="flex flex-col gap-5 ml-4">
                     <a href="https://www.linkedin.com/in/md-abu-naim/" target="_blank"><FaLinkedinIn /></a>
-                    <a href="" target="_blank"><FaFacebookF /></a>
-                    <a href="" target="_blank"><FaTwitter /></a>
+                    <a href="https://www.facebook.com/farhanadnan.farabi.5" target="_blank"><FaFacebookF /></a>
+                    <a href="https://instagram.com/farhanadnan.farabi" target="_blank"><FaTwitter /></a>
                 </div>
                 <Image src='/devider.png' width={50} height={80} alt="devider" />
             </div>
