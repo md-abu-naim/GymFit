@@ -9,7 +9,7 @@ export default function Home() {
           <Navber></Navber>
           <Banner />
         </header>
-      <main className="font-serif lg:px-20">
+      <main className="font-serif px-5 lg:px-20">
         <OverviewPage />
       </main>
     </div>

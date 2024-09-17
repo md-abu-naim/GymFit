@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const OverviewPage = () => {
     return (
-        <div className="pt-16 flex items-center justify-between gap-20">
-            <div className="w-1/2 ">
+        <div className="pt-16 flex flex-col md:flex-row lg:items-center justify-between gap-20">
+            <div className="md:w-1/2 ">
                 <div className="border-l-2 border-[#EE6C0C] pl-6">
                     <h4 className="font-medium text-xl">Overview Intro</h4>
                     <h2 className="font-bold uppercase text-[#EE6C0C] text-3xl">Our Story</h2>
@@ -12,7 +12,7 @@ const OverviewPage = () => {
                     <video className="rounded-xl hover:rounded-3xl" src="/fitness.mp4" controls></video>
                 </div>
             </div>
-            <div className="w-1/2">
+            <div className="md:w-1/2">
                 <div className="border-l-2 border-[#EE6C0C] pl-6">
                     <h4 className="font-medium text-xl">About <span className="text-[#EE6C0C]">GYM</span> FIT</h4>
                     <h2 className="font-bold uppercase text-[#EE6C0C] text-3xl">Who We Are</h2>
