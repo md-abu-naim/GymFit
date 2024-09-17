@@ -9,7 +9,7 @@ const Navber = () => {
         <div className="navbar">
             <div className="navbar-start">
                 <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                    <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -31,15 +31,15 @@ const Navber = () => {
                         }
                     </ul>
                 </div>
-                <Link href={'/'} className="btn btn-ghost text-4xl"><span className='text-[#EE6C0C]'>GYM</span>FIT</Link>
+                <Link href={'/'} className="btn btn-ghost text-2xl lg:text-4xl"><span className='text-[#EE6C0C]'>GYM</span>FIT</Link>
             </div>
-            <div className="navbar-center hidden lg:flex items-center">
-                <ul className="menu menu-horizontal px-1">
+            <div className="navbar-center lg:flex items-center">
+                <ul className="menu hidden md:flex menu-horizontal px-1">
                     {
                         navLinks.map(link => <li className={`${pathName === link.path && 'border-b-2 border-[#EE6C0C]'} font-bold uppercase`} key={link.path}><Link href={link.path}>{link.title}</Link></li>)
                     }
                 </ul>
-                <a className="btn rounded-3xl px-10 hover:bg-[#252322] bg-[#EE6C0C] font-bold border-none text-white">SignUP</a>
+                <a className="btn rounded-3xl ml-16 md:ml-0 px-4 lg:px-10 hover:bg-[#252322] bg-[#EE6C0C] font-bold border-none text-white">SignUP</a>
             </div>
         </div>
     );
