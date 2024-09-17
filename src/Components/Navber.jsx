@@ -39,6 +39,7 @@ const Navber = () => {
                         navLinks.map(link => <li className={`${pathName === link.path && 'border-b-2 border-[#EE6C0C]'} font-bold uppercase`} key={link.path}><Link href={link.path}>{link.title}</Link></li>)
                     }
                 </ul>
+                <a className="btn rounded-3xl px-10 hover:bg-[#252322] bg-[#EE6C0C] border-none text-white">SignUP</a>
             </div>
             {/* <div className="navbar-end">
                 <a className="btn">Button</a>
