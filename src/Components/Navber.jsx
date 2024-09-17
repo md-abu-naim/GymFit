@@ -33,13 +33,13 @@ const Navber = () => {
                 </div>
                 <Link href={'/'} className="btn btn-ghost text-4xl"><span className='text-[#EE6C0C]'>GYM</span>FIT</Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden lg:flex items-center">
                 <ul className="menu menu-horizontal px-1">
                     {
                         navLinks.map(link => <li className={`${pathName === link.path && 'border-b-2 border-[#EE6C0C]'} font-bold uppercase`} key={link.path}><Link href={link.path}>{link.title}</Link></li>)
                     }
                 </ul>
-                <a className="btn rounded-3xl px-10 hover:bg-[#252322] bg-[#EE6C0C] border-none text-white">SignUP</a>
+                <a className="btn rounded-3xl px-10 hover:bg-[#252322] bg-[#EE6C0C] font-bold border-none text-white">SignUP</a>
             </div>
         </div>
     );
