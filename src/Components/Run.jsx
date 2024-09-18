@@ -11,7 +11,7 @@ const Run = () => {
                 <Link href='/courses' className="btn rounded-3xl mt-6 px-10 hover:bg-[#252322] bg-[#EE6C0C] border-none text-white uppercase"> Read MORE</Link>
             </div>
             <div>
-                <Image src={'/run.jpg'} className="rounded-2xl w-full" width={400} height={350} alt="run" />
+                <Image src={'/run.jpg'} className="rounded-2xl" width={400} height={350} alt="run" />
             </div>
         </div>
     );
