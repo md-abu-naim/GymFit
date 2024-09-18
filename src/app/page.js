@@ -1,6 +1,7 @@
 import Banner from "@/Components/Banner";
 import Navber from "../Components/Navber";
 import OverviewPage from "@/Components/OverviewPage";
+import OurCourses from "@/Components/OurCourses";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         </header>
       <main className="font-serif px-5 lg:px-20">
         <OverviewPage />
+        <OurCourses />
       </main>
     </div>
   );
