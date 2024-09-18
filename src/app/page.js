@@ -4,6 +4,7 @@ import OverviewPage from "@/Components/OverviewPage";
 import OurCourses from "@/Components/OurCourses";
 import Run from "@/Components/Run";
 import Features from "@/Components/Features";
+import Footer from "@/Components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
         <Run />
         <Features />
       </main>
+      <footer className="font-serif ">
+        <Footer />
+      </footer>
     </div>
   );
 }

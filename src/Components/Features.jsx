@@ -3,7 +3,7 @@ import { LiaDumbbellSolid, LiaHeartbeatSolid, LiaStopwatchSolid, LiaUserNinjaSol
 
 const Features = () => {
     return (
-        <div className="bg-[url('/bg.jpg')] md:pt-10 lg:pt-0 mb-16 mt-20 h-[850px] lg:h-screen flex flex-col lg:flex-row items-center justify-between px-5 lg:px-20">
+        <div className="bg-[url('/bg.jpg')] md:pt-10 lg:pt-0 mt-20 h-[850px] lg:h-screen flex flex-col lg:flex-row items-center justify-between px-5 lg:px-20">
             <div className="lg:w-1/2">
                 <div className="border-l-2 border-[#EE6C0C] pl-6">
                     <h4 className="font-medium text-xl">Awsome Features</h4>
