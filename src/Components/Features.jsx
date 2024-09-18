@@ -11,14 +11,14 @@ const Features = () => {
                 </div>
                 <div className="flex flex-col md:flex-row pt-6 justify-between items-center">
                     <div className="flex gap-4">
-                        <LiaDumbbellSolid className="text-6xl" />
+                        <LiaDumbbellSolid className="text-6xl hover:text-[#EE6C0C]" />
                         <div>
                             <h3 className="text-xl font-black">Pro Equipment</h3>
                             <p className="md:w-[223px] pt-2">Duis sed scelerisque nibh. Fusce efficitur ante sit tincidunt.</p>
                         </div>
                     </div>
                     <div className="flex gap-4 pt-6 md:pt-0">
-                        <LiaUserNinjaSolid className="text-6xl" />
+                        <LiaUserNinjaSolid className="text-6xl hover:text-[#EE6C0C]" />
                         <div>
                             <h3 className="text-xl font-black">Ninja Coach</h3>
                             <p className="md:w-[223px] pt-2">Duis sed scelerisque nibh. Fusce efficitur ante sit tincidunt.</p>
@@ -27,14 +27,14 @@ const Features = () => {
                 </div>
                 <div className="flex flex-col md:flex-row pt-6 justify-between items-center">
                     <div className="flex gap-4">
-                        <LiaHeartbeatSolid className="text-6xl" />
+                        <LiaHeartbeatSolid className="text-6xl hover:text-[#EE6C0C]" />
                         <div>
                             <h3 className="text-xl font-black">Cardio First</h3>
                             <p className="md:w-[223px] pt-2">Duis sed scelerisque nibh. Fusce efficitur ante sit tincidunt.</p>
                         </div>
                     </div>
                     <div className="flex gap-4 pt-6 md:pt-0">
-                        <LiaStopwatchSolid className="text-6xl" />
+                        <LiaStopwatchSolid className="text-6xl hover:text-[#EE6C0C]" />
                         <div>
                             <h3 className="text-xl font-black">Flexible Time</h3>
                             <p className="md:w-[223px] pt-2">Duis sed scelerisque nibh. Fusce efficitur ante sit tincidunt.</p>
