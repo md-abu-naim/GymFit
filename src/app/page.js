@@ -3,6 +3,7 @@ import Navber from "../Components/Navber";
 import OverviewPage from "@/Components/OverviewPage";
 import OurCourses from "@/Components/OurCourses";
 import Run from "@/Components/Run";
+import Features from "@/Components/Features";
 
 export default function Home() {
   return (
@@ -11,10 +12,11 @@ export default function Home() {
           <Navber></Navber>
           <Banner />
         </header>
-      <main className="font-serif px-5 lg:px-20">
+      <main className="font-serif ">
         <OverviewPage />
         <OurCourses />
         <Run />
+        <Features />
       </main>
     </div>
   );

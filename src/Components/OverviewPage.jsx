@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const OverviewPage = () => {
     return (
-        <div className="pt-16 flex flex-col md:flex-row lg:items-center justify-between gap-20">
+        <div className="pt-16 px-5 lg:px-20 flex flex-col md:flex-row lg:items-center justify-between gap-20">
             <div className="md:w-1/2 ">
                 <div className="border-l-2 border-[#EE6C0C] pl-6">
                     <h4 className="font-medium text-xl">Overview Intro</h4>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Run = () => {
     return (
-        <div className="bg-black rounded-xl p-5 md:p-10 mt-16 gap-9 flex flex-col md:flex-row items-center justify-between">
+        <div className="bg-black mx-5 lg:mx-20 rounded-xl p-5 md:p-10 mt-16 gap-9 flex flex-col md:flex-row items-center justify-between">
             <div className="">
                 <h1 className="lg:text-3xl text-2xl font-extrabold pb-2">Run an Extra <br />
                     Mile Easily</h1>
