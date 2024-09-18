@@ -2,6 +2,7 @@ import Banner from "@/Components/Banner";
 import Navber from "../Components/Navber";
 import OverviewPage from "@/Components/OverviewPage";
 import OurCourses from "@/Components/OurCourses";
+import Run from "@/Components/Run";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <main className="font-serif px-5 lg:px-20">
         <OverviewPage />
         <OurCourses />
+        <Run />
       </main>
     </div>
   );
