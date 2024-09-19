@@ -7,6 +7,7 @@ import Features from "@/Components/Features";
 import Footer from "@/Components/Footer";
 import Videos from "@/Components/Videos";
 import Process from "@/Components/Process";
+import TrainerSection from "@/Components/TrainerSection";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Features />
         <Process />
         <Videos />
+        <TrainerSection />
       </main>
       <footer className="font-serif ">
         <Footer />
