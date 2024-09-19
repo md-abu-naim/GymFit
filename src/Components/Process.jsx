@@ -20,7 +20,7 @@ const Process = () => {
                     </div>
                     <h3 className="pt-3 text-2xl hover:text-[#EE6C0C] font-semibold">Work Hard on it</h3>
                 </div>
-                <div className="flex text-center mt-5 items-center justify-center flex-col">
+                <div className="flex text-center lg:mt-5 items-center justify-center flex-col">
                     <div className="bg-[#EE6C0C] border-[8px] hover:border-4 hover:p-3 border-[#8c3e07] rounded-full w-36 h-36 flex items-center justify-center">
                         <Image src={'/icon3.png'} width={80} height={50} alt="icon" />
                     </div>
