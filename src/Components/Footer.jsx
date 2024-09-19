@@ -44,7 +44,7 @@ const Footer = () => {
                             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                                 <div>
                                     <h3 className="text-white uppercase dark:text-gray-300">About</h3>
-                                    <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Courses</a>
+                                    <Link href="/courses" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Courses</Link>
                                     <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Company</a>
                                     <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Community</a>
                                 </div>

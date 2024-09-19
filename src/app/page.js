@@ -5,6 +5,8 @@ import OurCourses from "@/Components/OurCourses";
 import Run from "@/Components/Run";
 import Features from "@/Components/Features";
 import Footer from "@/Components/Footer";
+import Videos from "@/Components/Videos";
+import Process from "@/Components/Process";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <OurCourses />
         <Run />
         <Features />
+        <Process />
+        <Videos />
       </main>
       <footer className="font-serif ">
         <Footer />
